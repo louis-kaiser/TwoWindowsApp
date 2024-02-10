@@ -10,9 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Button("Open Second Window") {
-                SecondWindow().show()
-            }
+            Text("Content View")
+                .padding()
         }
     }
 }

@@ -10,17 +10,18 @@ import SwiftUI
 @main
 struct TwoWindowsApp: App {
     var body: some Scene {
-        WindowGroup {
+        WindowGroup("Main") {
             ContentView()
         }
-    }
-}
-
-extension View {
-    func show() {
-        let contentView = NSHostingController(rootView: self)
-        let window = NSWindow(contentViewController: contentView)
-        window.makeKeyAndOrderFront(nil)
-        NSApp.activate(ignoringOtherApps: true)
+        
+        #if os(macOS)
+        WindowGroup("second"){
+            SecondWindow()
+        }
+        
+        Settings{
+            SettingsView()
+        }
+        #endif
     }
 }

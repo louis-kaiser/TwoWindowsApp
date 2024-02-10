@@ -12,6 +12,7 @@
 		3D0984D62B6A356B005A206E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0984D52B6A356B005A206E /* Assets.xcassets */; };
 		3D0984D92B6A356B005A206E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0984D82B6A356B005A206E /* Preview Assets.xcassets */; };
 		3D0984E12B6A359E005A206E /* SecondWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0984E02B6A359E005A206E /* SecondWindow.swift */; };
+		3D3F07992B77C107001E62D6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3F07982B77C107001E62D6 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3D0984D82B6A356B005A206E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D0984DA2B6A356B005A206E /* TwoWindowsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TwoWindowsApp.entitlements; sourceTree = "<group>"; };
 		3D0984E02B6A359E005A206E /* SecondWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondWindow.swift; sourceTree = "<group>"; };
+		3D3F07982B77C107001E62D6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				3D0984D12B6A3569005A206E /* TwoWindowsAppApp.swift */,
 				3D0984D32B6A3569005A206E /* ContentView.swift */,
 				3D0984E02B6A359E005A206E /* SecondWindow.swift */,
+				3D3F07982B77C107001E62D6 /* SettingsView.swift */,
 				3D0984D52B6A356B005A206E /* Assets.xcassets */,
 				3D0984DA2B6A356B005A206E /* TwoWindowsApp.entitlements */,
 				3D0984D72B6A356B005A206E /* Preview Content */,
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D0984D42B6A3569005A206E /* ContentView.swift in Sources */,
+				3D3F07992B77C107001E62D6 /* SettingsView.swift in Sources */,
 				3D0984D22B6A3569005A206E /* TwoWindowsAppApp.swift in Sources */,
 				3D0984E12B6A359E005A206E /* SecondWindow.swift in Sources */,
 			);
